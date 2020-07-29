@@ -1,0 +1,312 @@
+/* Style Elements */
+h1 {
+    font-size: 3.5rem;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+h2 {
+    font-size: 2.5rem;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+h3 {
+    font-size: 40pt;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 2rem;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h5 {
+    font-size: 28pt;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h6 {
+    font-size: 18pt;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+p {
+    font-size: 14pt;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Proxima Nova Fonts 
+
+
+Proxima Nova Bold
+font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Proxima Nova Bold Italic
+font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+
+
+Proxima Nova Semibold
+font-family: proxima-nova, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+
+Proxima Nova Semibold Italic
+font-family: proxima-nova, sans-serif;
+font-weight: 600;
+font-style: italic;
+
+
+Proxima Nova Regular
+font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Proxima Nova Italic
+font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+Proxima Nova Medium
+font-family: proxima-nova, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+
+Proxima Nova Medium Italic
+font-family: proxima-nova, sans-serif;
+font-weight: 500;
+font-style: italic;
+
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.navItem li, a {
+    font-family: proxima-nova, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #4C5B72;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 250px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 0px 0px 20px; /*zero top an bottom, 20px left and right*/
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+
+}
+.navLinks li a:hover {
+    color: #E60073;
+    
+}
+
+.active, .navItems:hover {
+    color: #E60073;
+}
+
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    Padding: 40px 250px 115px 250px;
+}
+
+.columnIntro {
+    padding-right: 50px;
+}
+
+h1.introText {
+    color: #E60073;
+}
+
+h2.jobTitle {
+    color: #4C5B72;
+}
+
+h4.shortBio{
+    padding: 10px 0;
+}
+
+
+/*my work section*/
+.project-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.project-grid-main {
+    grid-column: 1/3;
+    transition: transform .2s ease-in-out; 
+}
+.project-grid-main:hover {
+    transform: scale(1.01); 
+}
+
+.project-grid-left {
+    grid-column: 1/1;
+    transition: transform .2s ease-in-out; 
+}
+
+.project-grid-left:hover {
+    transform: scale(1.01); 
+}
+
+.project-grid-right{
+    grid-column: 2/span 1;
+    transition: transform .2s ease-in-out; 
+}
+
+.project-grid-right:hover {
+    transform: scale(1.01); 
+}
+
+/*@media screen and (max-width: 600px) {
+    .project-grid-left img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .project-grid-right img {
+      width: 100%;
+    }
+  }*/
+
+/*about Me*/
+
+.aboutImage img{
+    padding: 0 250px 20px 250px;
+    width: 100%;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 50%;
+    margin-left: 250px;
+}
+
+.right {
+    width: 20%;
+    margin-right: 250px;
+    padding-left: 20px;
+}
+
+.aboutMe:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button-Resume {
+    margin: 20px 250px;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    .left {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .right {
+      width: 100%;
+    }
+  }
+
+
+/* Footer CSS */
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    display: block;
+}
+
+.footerContainer{
+    padding-top: 40px;
+}
+
+h6.connectFooter{
+    color: #4C5B72;
+}
+
+.socialIcons {
+    display: inline-block;
+}
+
+.social {
+    width: 10%;
+    padding: 15px 40px 15px 40px;
+    float: left;
+}
+
+
+.copyright{
+    padding-bottom: 40px;
+}
+
+
+
+
