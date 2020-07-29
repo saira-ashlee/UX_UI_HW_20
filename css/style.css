@@ -232,10 +232,23 @@ h4.shortBio{
 
 /*about Me*/
 
-.aboutImage img{
-    padding: 0 250px 20px 250px;
-    width: 100%;
+.aboutImage{
+    /*padding: 0 250px 20px 250px;
+    width: 100%;*/
+    display: flex;
 }
+
+.aboutImage img{
+    display: inline-block;
+    overflow: visible;
+    width: 1100px;
+    height: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    object-fit: cover;
+}
+
 
 .column {
     float: left;
