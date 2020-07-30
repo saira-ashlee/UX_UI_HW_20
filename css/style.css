@@ -318,6 +318,34 @@ h4.shortBio{
   }
 
 
+/*Case Study Code*/
+.project-hero-image {
+    display: flex;
+}
+
+.project-hero-image img{
+    display: inline-block;
+    overflow: visible;
+    width: 1100px;
+    height: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    object-fit: cover;
+}
+
+.project-overview {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+
+
+
+
+
 /* Footer CSS */
 
 footer {
