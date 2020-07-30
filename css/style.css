@@ -32,14 +32,14 @@ h4 {
 }
 
 h5 {
-    font-size: 28pt;
+    font-size: 28px;
     font-family: proxima-nova, sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 h6 {
-    font-size: 18pt;
+    font-size: 18px;
     font-family: proxima-nova, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -47,7 +47,7 @@ h6 {
 
 
 p {
-    font-size: 14pt;
+    font-size: 16px;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -319,24 +319,21 @@ h4.shortBio{
 
 
 /*Case Study Code*/
-.project-hero-image {
+.project-hero-image-1 {
     display: flex;
+    background-color: white;
 }
 
-.project-hero-image img{
+.project-hero-image-1 img{
     display: inline-block;
-    overflow: visible;
-    width: 1100px;
-    height: 680px;
+    object-fit: cover;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
-    object-fit: cover;
 }
 
-.project-overview {
-    margin-left: 300px;
-    margin-right: 300px;
+.case-study-content{
+    margin-right: 250px;
+    margin-left: 250px;
 }
 
 .box{
@@ -371,6 +368,155 @@ h4.shortBio{
     padding: 10px 0 0;
     text-align: justify;
 }
+
+.project-process {
+    padding-top: 80px;
+}
+
+.process-title{
+    font-size: 18px;
+    color: #4C5B72;
+}
+
+.process-text {
+    font-size: 14px;
+}
+
+.process-image {
+    width: 50px;
+    align-self: center;
+}
+
+.user-research{
+    padding-top: 80px;
+}
+
+.section-title {
+    text-align: center;
+    color: #E60073;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.section-title-underline{
+    width:100px;
+    height:5px;
+    background-color: #E60073;
+    margin: auto;
+}
+
+.fig-content figcaption {
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+.lists-align{
+    padding-left: 15px;
+}
+
+.define-section{
+    padding-top: 80px;
+}
+
+.ideation-section {
+    padding-top: 80px;
+}
+
+.prototype-section{
+    padding-top: 80px;
+}
+
+.testing-section{
+    padding-top: 80px;
+}
+
+.project-learnings{
+    padding-top: 80px;
+}
+
+.improvements-align{
+    justify-content: center;
+}
+
+#feature-section{
+    padding-top: 80px;
+    background-color: #f2f2f2;
+    object-fit: cover;
+}
+
+.hi-fi{
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.hi-fi h5{
+    background-color: #f2f2f2;
+}
+
+#hi-fi-cards{
+    background-color: #f2f2f2;
+    padding-bottom: 80px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.more-work-section{
+    padding-top: 80px;
+    background-color: #4C5B72;
+    padding-bottom: 80px;
+}
+
+#more-work-title{
+    background-color: #4C5B72;
+    color: white;
+    text-align: center;
+}
+
+.box-more{
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 300px;
+    margin: auto;
+}
+
+
+.box-more .imgBox {
+    width: 50px;
+    flex: 0 0 50px ;
+}
+
+.box-more .imgBox img{
+    max-width: 100%;
+}
+
+.box-more .more-content {
+    padding-left: 20px;
+}
+
+.box-more .more-content h6{
+    margin: 0;
+    padding-left: 0;
+
+}
+
+.box-more .more-content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.more-content{
+    background-color: white;
+}
+
+#more-work-deck{
+    background-color: #4C5B72;
+}
+
 
 
 /* Footer CSS */
