@@ -339,11 +339,38 @@ h4.shortBio{
     margin-right: 300px;
 }
 
+.box{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+
+}
 
 
+.box .imgBox {
+    width: 50px;
+    flex: 0 0 50px ;
+}
 
+.box .imgBox img{
+    max-width: 100%;
+}
 
+.box .content {
+    padding-left: 20px;
+}
 
+.box .content q{
+    margin: 0;
+    padding-left: 0;
+}
+
+.box .content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
 
 
 /* Footer CSS */
